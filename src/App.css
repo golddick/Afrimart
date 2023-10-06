@@ -97,7 +97,7 @@ img {
 }
 .btn2 {
   border-radius: 50px;
-  font-size: 20px;
+  font-size: 15px;
 }
 .grid4 {
   display: grid;
@@ -105,7 +105,7 @@ img {
   grid-gap: 30px;
 }
 .btn3 {
-  background: #ff6922;
+  background: #2268ff;
   border-radius: 50px;
 }
 .btn4 {

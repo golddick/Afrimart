@@ -1,4 +1,5 @@
 import React from "react"
+import './recent.css'
 import { list } from "../../data/Data"
 
 const RecentCard = () => {
@@ -8,11 +9,11 @@ const RecentCard = () => {
         {list.map((val, index) => {
           const { cover, category, location, name, price, type } = val
           return (
-            <div className='box shadow' key={index}>
-              <div className='img'>
-                <img src={cover} alt='' style={{height:'300px'}} />
+            <div className='box_shadow' key={index} >
+              <div className='box-img'>
+                <img src={cover} alt=''/>
               </div>
-              <div className='text'>
+              <div className='box-text'>
                 <div className='category flex'>
                   <span style={{ background: category === "Available" ? "#25b5791a" : "#ff98001a", color: category === "Available" ? "#25b579" : "#ff9800" }}>{category}</span>
                   <i className='fa fa-heart'></i>
@@ -22,9 +23,9 @@ const RecentCard = () => {
                   <i className='fa fa-location-dot'></i> {location}
                 </p>
               </div>
-              <div className='button flex'>
+              <div className='box-button flex'>
                 <div>
-                  <button className='btn2' style={{background:'orange'}}>{price}</button> 
+                  <button className='btn2'>Get Quote</button> 
                 </div>
                 <span>{type}</span>
               </div>

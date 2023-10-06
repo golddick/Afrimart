@@ -4,12 +4,12 @@ import { success } from "../../data/Data"
 const FeaturedCard = () => {
   return (
     <>
-      <div className='content grid5 mtop' style={{display:'flex', width:'100%', justifyContent:"space-evenly"}}>
+      <div className='featured_content'>
         {success.map((items, index) => (
-          <div className='box' key={index} style={{width:'500px'}}>
-            <img src={items.cover} alt='' />
-            <h4>{items.name}</h4>
-            <label>{items.total}</label>
+          <div className='featured_box' key={index}>
+            <img src={items.cover} alt='' className="boxImg" />
+            <h4 className="BoxName">{items.name}</h4>
+            <label className="BoxText">{items.total}</label>
           </div>
         ))}
       </div>

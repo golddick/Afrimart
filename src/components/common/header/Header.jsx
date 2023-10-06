@@ -22,10 +22,10 @@ const Header = () => {
               ))}
             </ul>
           </div>
-          <div className='button flex'>
-            {/* <h4>
-              <span>2</span> My List
-            </h4> */}
+          <div className='button flex' style={{gap:'20px'}}>
+          <button className='btn1'>
+              <i className='login'></i> Login
+            </button>
             <button className='btn1'>
               <i className='fa fa-sign-out'></i> Sign In
             </button>

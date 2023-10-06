@@ -8,13 +8,13 @@ export const nav = [
     path: "/about",
   },
   {
-    text: "Product",
+    text: "wholesale",
     path: "/product",
   },
-  {
-    text: "blog",
-    path: "/blog",
-  },
+  // {
+  //   text: "blog",
+  //   path: "/blog",
+  // },
   {
     text: "pricing",
     path: "/pricing",
@@ -62,6 +62,16 @@ export const success = [
     cover: "../images/hero/h3.png",
     name: "access",
     total: "Having access to comprehensive and accurate  information on traders as well as being able to actually consummate the trade with the least friction",
+  },
+  {
+    cover: "../images/hero/h3.png",
+    name: "Inspection Services",
+    total: "We offer inspection to are  customers ",
+  },
+  {
+    cover: "../images/hero/h3.png",
+    name: "Domain",
+    total: "We offer our customers the option of getting their africa domain from us ",
   },
 
 ]
@@ -343,6 +353,6 @@ export const footer = [
   },
   {
     title: "PARTNERS",
-    text: [{ list: "Bazooka" }, { list: "GIG" }, { list: "ITEX" }, ],
+    text: [ { list: "GIG" }, { list: "ITEX" }, ],
   },
 ]
