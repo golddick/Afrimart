@@ -9,11 +9,11 @@ const Hero = () => {
         <div className='container'>
           <Heading title='Home For African Products' subtitle='African Market.' />
 
-          <form className='flex'>
-            {/* <div className='box'>
+          {/* <form className='flex'>
+            <div className='box'>
               <span>City/Street</span>
               <input type='text' placeholder='Location' />
-            </div> */}
+            </div>
             <div className='box'>
               <span>Product Name </span>
               <input type='text' placeholder='Product Name ' />
@@ -28,7 +28,7 @@ const Hero = () => {
             <button className='btn1'>
               <i className='fa fa-search'></i>
             </button>
-          </form>
+          </form> */}
         </div>
       </section>
     </>
