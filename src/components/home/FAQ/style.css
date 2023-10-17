@@ -2,16 +2,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
   padding: 20px;
-  /* background-color: coral; */
+}
+
+.faq_body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 }
 .header{
   display: flex;
   width: 100%;
-  justify-content: flex-start; 
+ justify-content: start;
 }
-.headerText{
+.FaqHeader{
   color: #000;
   font-family: sans-serif;
   font-size: 40px;
@@ -23,22 +31,22 @@
 .faqBody{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 100%;
   justify-content: center;
+  align-items: center;
   gap: 20px;
-  width: 50%;
-  margin: 20px;
-  padding: 10px;
-  /* background-color: darkgreen; */
 }
 .faqText{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%;
+display: flex;
+width: 50%;
+flex-direction: column;
+gap: 10px;
+justify-content: center;
+align-items: center;
 }
 .faq_Que{
   display: flex;
+  align-items: center;
   justify-content: space-between ;
   width: 100%;
 }
@@ -62,7 +70,28 @@
 .faq_ans{
 display: flex;
 flex-direction: column;
-}
-.queAns{
+gap: 20px;
+width: 100%;
 
 }
+.faqAnsBody{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+/* li{
+  color: red;
+  display: flex;
+  align-items: center;
+
+}
+
+.ansIcon{
+  width: 25px;
+  height: 25px;
+} */
+

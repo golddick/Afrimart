@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../../../../public/images/banner.png");
+  /* background-image: url("../../../../public/images/banner.png"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,36 +17,47 @@
   color: #fff;
   opacity: 0.8;
 }
-form {
-  background-color: #fff;
-  border-radius: 5px;
-  margin-top: 50px;
-  padding: 0 20px;
+
+.headerText{
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+backdrop-filter: blur(10px); /* Adjust the value to control the blur intensity */
+background-color: rgba(0, 0, 0, 0.442);
+border-radius: 10px;
+
 }
-form input {
-  padding: 10px;
-  width: 100%;
-  border: 1px solid rgba(128, 128, 128, 0.2);
-  margin-top: 5px;
-  border-radius: 5px;
+.Header-text{
+  font-family:'Poppins', sans-serif ;
+  text-align:center;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.34;
+  color:orange;
+  font-size:50px;
+  
+
 }
-form span {
-  font-size: 14px;
-  color: grey;
+.headerBio{
+  font-family:"Roboto",sans-serif,Arial,"Helvetica Neue";
+  text-align:center;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.34;
+  color:#fff;
+  font-size:20px;
+  
 }
-input::placeholder {
-  font-size: 17px;
-  color: black;
+.swiper-pagination-bullet {
+  background: green;
 }
-form .box {
-  padding: 15px;
-  border-left: 1px solid rgba(128, 128, 128, 0.2);
-}
-form .box:nth-child(1) {
-  border-left: none;
-}
-form h4 {
-  font-weight: 500;
+
+/* Style for active pagination bullet (red color) */
+.swiper-pagination-bullet-active {
+  background: red;
 }
 @media screen and (max-width: 800px) {
   .hero .container {

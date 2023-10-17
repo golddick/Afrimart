@@ -7,10 +7,10 @@ export const nav = [
     text: "about",
     path: "/about",
   },
-  // {
-  //   text: "wholesale",
-  //   path: "/product",
-  // },
+  {
+    text: "FAQ",
+    path: "/faq",
+  },
   // {
   //   text: "blog",
   //   path: "/blog",

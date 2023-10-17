@@ -1,11 +1,13 @@
 import React, {useState} from 'react'
 import {GrAdd} from 'react-icons/gr'
+import {BiSolidRightArrowAlt} from 'react-icons/bi'
 import './style.css'
 
 function Faq() {
     const [openAns, setOpenAns] = useState()
     const [openAns2, setOpenAns2] = useState()
     const [openAns3, setOpenAns3] = useState()
+    const [openAns4, setOpenAns4] = useState()
     const handleOpenAns =() =>{
         setOpenAns(!openAns)
     }
@@ -15,10 +17,13 @@ function Faq() {
     const handleOpenAns3 =() =>{
         setOpenAns3(!openAns3)
     }
+    const handleOpenAns4 =() =>{
+        setOpenAns4(!openAns4)
+    }
   return (
     <div className='Faq'>
         <div className="header">
-            <h6 className='headerText'>FAQ</h6>
+            <h6 className='FaqHeader'>FAQ</h6>
         </div>
         <div className="faqBody">
             <div className="faqText">
@@ -29,45 +34,76 @@ function Faq() {
                 <div className="faq_ans">
                {
                 openAns && (
-                    <span className='queAns'>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                     Donec quam felis, ultricies nec,pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    </span>
+                    <div>
+                        <ul  className="faqAnsBody">
+                            <li><BiSolidRightArrowAlt/> Afrimart is Africa’s first intra-continental online business-to-business trade platform.</li>
+                            <li><BiSolidRightArrowAlt/>This platform is designed to create new business opportunities for African SMEs and general merchants on the quest for growth and expansion by creating visibility and accessibility to African buyers and suppliers</li>
+                           
+                        </ul>
+                    </div>
                 )
                }
                 </div>
             </div>
             <div className="faqText">
                 <div className="faq_Que">
-                <span className='queText'>How to register on Afrimart</span>
+                <span className='queText'>What are the benefits of joining Afrimart?</span>
                 <GrAdd className='faqIcon' onClick={handleOpenAns2}/>
                 </div>
                 <div className="faq_ans">
                 {
                 openAns2 && (
-                    <span className='queAns'>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                     Donec quam felis, ultricies nec,pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    </span>
+                 
+                    <div>
+                        <ul  className="faqAnsBody">
+                            <li><BiSolidRightArrowAlt/> Visibility and accessibility to African buyers and suppliers</li>
+                            <li><BiSolidRightArrowAlt/> Free membership for a year</li>
+                            <li><BiSolidRightArrowAlt/> Payment security</li>
+                            <li><BiSolidRightArrowAlt/> Supplier verification</li>
+                            <li><BiSolidRightArrowAlt/> Network of logistics partners</li>
+                            <li><BiSolidRightArrowAlt/> Location based lead generation</li>
+                            <li><BiSolidRightArrowAlt/> Ecosystem of payment partners (Afrexim & other payment companies)</li>
+                            <li><BiSolidRightArrowAlt/> Business tools for sellers: analytics, inventory management, selling tips, etc.</li>
+                            <li><BiSolidRightArrowAlt/> Multilingual platform</li>
+                            <li><BiSolidRightArrowAlt/> Growth and scale opportunity for African manufacturing industries.</li>
+                        </ul>
+                    </div>
                 )
                }
                 </div>
             </div>
             <div className="faqText">
                 <div className="faq_Que">
-                <span className='queText'>what we offer?</span>
+                <span className='queText'>Is there a fee to join Afrimart?</span>
                 <GrAdd className='faqIcon' onClick={handleOpenAns3}/>
                 </div>
                 <div className="faq_ans">
                 {
                 openAns3 && (
-                    <span className='queAns'>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                     Donec quam felis, ultricies nec,pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    </span>
+                <div >
+                        <ul className="faqAnsBody">
+                            <li><BiSolidRightArrowAlt/> yes.</li>
+                            <li><BiSolidRightArrowAlt/>yes</li>
+                           
+                        </ul>
+                </div>
+                )
+               }
+                </div>
+            </div>
+            <div className="faqText">
+                <div className="faq_Que">
+                <span className='queText'>Does Afrimart sell products?</span>
+                <GrAdd className='faqIcon' onClick={handleOpenAns4}/>
+                </div>
+                <div className="faq_ans">
+                {
+                openAns4 && (
+                <div>
+                        <ul  className="faqAnsBody">
+                            <li><BiSolidRightArrowAlt/>No, Afrimart is neither a supplier nor a buyer.</li>
+                        </ul>
+                </div>
                 )
                }
                 </div>
