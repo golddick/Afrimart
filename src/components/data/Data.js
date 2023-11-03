@@ -26,52 +26,87 @@ export const nav = [
 ]
 export const featured = [
   {
-    cover: "../images/hero/h1.png",
-    name: "KYC",
-    total: "Poor know your customer (KYC) and standards of services",
+    cover: "../images/hero/problem.png",
+    name: "Visibility and Accessibility",
+    total: "Low visibility and restricted access between countries in regard to tradable products.",
   },
   {
     cover: "../images/hero/h2.png",
-    name: "Visibility",
-    total: "Little visibility between countries in regards to tradeable products info",
+    name: "Language Barrier",
+    total: "Diverse languages and cultural differences make it challenging to reach a broad audience.",
   },
   {
     cover: "../images/hero/h3.png",
-    name: "Payment",
-    total: "Cross border, Pan-Africa payments poorly​ establish",
+    name: " Payment Deterrents",
+    total: "Cross border payment poorly established, Payment failures, limited payment options, and complex checkout processes.",
+  },
+  {
+    cover: "../images/hero/problem.png",
+    name: "Shipping and Logistics",
+    total: "Shipping delays, high shipping costs, and poor tracking lead to customer dissatisfaction.",
+  },
+  {
+    cover: "../images/hero/h2.png",
+    name: "Currency Barrier",
+    total: "different regions use various currencies, making intra-trading difficult.  ",
+  },
+  {
+    cover: "../images/hero/h3.png",
+    name: " Product Authenticity",
+    total: "Counterfeit products are a concern, impacting trust and safety. ",
   },
   {
     cover: "../images/hero/h4.png",
-    name: "Logistic",
-    total: "Poor logistics between countries",
+    name: "Inventory Management",
+    total: "Overstocking or understocking products can lead to loss of sales or excessive storage costs.",
+  },
+  {
+    cover: "../images/hero/h4.png",
+    name: "Security Concerns",
+    total: " Data breaches and fraud that erode trust",
   },
 ]
 
 export const success = [
   {
     cover: "../images/hero/h2.png",
-    name: "Visibility",
-    total: "The first important aspect of trade is to be visible to your target market.",
+    name: "Visibility and Accessibility",
+    total: "Afrimart grants visibility for your business as well as making it accessible to buyers looking to purchase your products across Africa and beyond.",
   },
   {
-    cover: "../images/hero/h1.png",
-    name: "Integrity",
-    total: "Integrity includes a robust, highly scalable and highly secure trading platform; a  strong Know Your Customer (KYC) component; engaging the right partners with strong  track records and requisite experience to provide vital platform services such as payments,  inspection and logistics",
-  },
-  {
-    cover: "../images/hero/h3.png",
-    name: "access",
-    total: "Having access to comprehensive and accurate  information on traders as well as being able to actually consummate the trade with the least friction",
+    cover: "../images/hero/h2.png",
+    name: "Language Barrier",
+    total: "The Afrimart platform is a multilingual platform that allows you to select from your preferred language choice which means you are not restricted to only one language and can reach a wide span of audience.",
   },
   {
     cover: "../images/hero/h3.png",
-    name: "Inspection Services",
-    total: "We offer inspection to are  customers ",
+    name: " Payment Deterrents",
+    total: " Afrimart has partnered with Papss to tackle cross-border payment issues and also offers multiple payment methods, simplify checkout, and address payment processing issues promptly, the platform is also designed with top notch security to ensure that all payment transactions are secured and safe. We also offer buyers the security of paying suppliers through an escrow system provided by our internal escrow engine as well as some globally recognized escrow service provider.",
   },
   {
     cover: "../images/hero/h3.png",
-    name: "Domain",
-    total: "We offer our customers the option of getting their africa domain from us ",
+    name: "Shipping and Logistics",
+    total: "Afrimart has Partnered with reliable logistics companies thereby offering multiple shipping options, and providing accurate shipment tracking.    ",
+  },
+  {
+    cover: "../images/hero/h4.png",
+    name: "Currency Barrier",
+    total: " Afrimart Implements a multi-currency feature that allows users to select their preferred currency and it automatically updates prices based on the chosen currency. ",
+  },
+  {
+    cover: "../images/hero/h4.png",
+    name: "Product Authenticity",
+    total: "We provide third-party verification of product quality and accuracy services to ensure that products meet the expected quality standards before they are shipped to customers. This reduces the risk of receiving defective or subpar items. One of our primary objectives of inspections is meeting customer requirements and preventing defective products from being distributed.  ",
+  },
+  {
+    cover: "../images/hero/problem.png",
+    name: " Inventory Management",
+    total: "Afrimart Implements Inventory management software to track and optimize stock levels in real-time. ",
+  },
+  {
+    cover: "../images/hero/problem.png",
+    name: " Security Concerns",
+    total: "Afrimart Implement robust security measures, including encryption, secure payment gateways, and regular security audits.",
   },
 
 ]

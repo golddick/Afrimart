@@ -9,8 +9,10 @@ const Featured = () => {
     <>
       <section className='featured_background'>
         <div className='featured_container'>
-          <Heading title='The problem' subtitle='Africa’s trade currently faces the challenges of low visibility of tradable products, poor cross-border payments & logistics infrastructure, among others.' />
-          <FeaturedCard  />
+          <div className="coardHeader">       <Heading title='The problem' subtitle='Africa’s trade currently faces the challenges of low visibility of tradable products, poor cross-border payments & logistics infrastructure, among others.' /></div>
+         <div className="cardrow">
+         <FeaturedCard  />
+         </div>
         </div>
        {/* // <br/> */}
         <div className='featured_container'>

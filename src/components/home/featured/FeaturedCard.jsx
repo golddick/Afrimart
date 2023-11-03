@@ -5,7 +5,7 @@ import './Featured.css'
 const FeaturedCard = () => {
   return (
     <>
-      <div className='featured_content'>
+      <div className='content'>
         {featured.map((items, index) => (
           <div className='featured_box' key={index}>
             <img src={items.cover} alt='' className="boxImg" />
